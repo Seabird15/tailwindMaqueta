@@ -52,6 +52,8 @@
 }
 
 @layer components {
+
+    /*Estilos Menu*/
     .menu-item {
         @apply mr-5 ml-5 tracking-wider flex-none
     }
@@ -59,4 +61,10 @@
     .menu-item-a {
         @apply block transition duration-200 hover: text-azul-claro transform hover:scale-125
     }
+
+    /*Estilos Menu*/
+    .card {
+        @apply flex-1 px-5 m-5 mt-10 overflow-hidden transition duration-300 bg-white border-2 border-gray-200 border-solid shadow-md cursor-pointer h-80;
+    }
+
 }
