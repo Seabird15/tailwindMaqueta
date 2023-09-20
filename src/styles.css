@@ -67,4 +67,17 @@
         @apply flex-1 px-5 m-5 mt-10 overflow-hidden transition duration-300 bg-white border-2 border-gray-200 border-solid shadow-md cursor-pointer h-80;
     }
 
+    .card-icon {
+        font-family: "WebSymbolsRegular";
+        @apply block w-full h-32 mx-auto mt-12 text-5xl text-center transition duration-300;
+    }
+
+    .card-category {
+        @apply w-full h-12 text-xl font-bold text-center transition duration-300 text-azul-oscuro;
+    }
+
+    .card-description {
+        @apply w-full h-12 text-base text-center transition duration-300 text-azul-oscuro;
+    }
+
 }
